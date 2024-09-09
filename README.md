@@ -1,4 +1,2 @@
-# book_collection
-Creaing this new repo from the main branch
-
-Edit using the dev branch
+# book-collection-3-and-4-ryanpavlik24
+book-collection-3-and-4-ryanpavlik24 created by GitHub Classroom

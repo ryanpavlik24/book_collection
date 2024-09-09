@@ -1,0 +1,16 @@
+<h1>Delete Book</h1>
+
+<%= render @book %>
+
+<%=form_for(@book, method: 'delete') do |b| %>
+    <p>Are you sure you want to permanently delete this book</p>
+
+    <div class="form-buttons">
+        <%= b.submit("Delete Book")%>
+    </div>
+<%end%>
+
+<div>
+  <%= link_to "Show this book", @book %> |
+  <%= link_to "Back to books", books_path %>
+</div>
